@@ -20,13 +20,13 @@ global.bruhdash = {
   },
 
   // returns the index of the first matching element from left to right
-  indexOf: function () {
-
+  indexOf: function (arr, x) {
+    return arr.indexOf(x);
   },
 
   // returns the index of the first matching element from right to left
-  lastIndexOf: function () {
-
+  lastIndexOf: function (arr, x) {
+      return arr.lastIndexOf(x);
   },
 
   // returns an array with all elements except for the last element
